@@ -1,3 +1,5 @@
+import java.lang.Math;
+
 public class Calculate {
 
 	public static void main(String[] arg) {
@@ -10,13 +12,12 @@ public class Calculate {
 		int subtraction = first - second;
 		int multiplication = first * second;
 		double division = (double)first / (double)second;
-		long involution = (long)first ^ (long)second;
+		double involution = Math.pow(first, second);
 
 		System.out.println("addition = " + addition);
 		System.out.println("subtraction = " + subtraction);
 		System.out.println("multiplicaation = " + multiplication);
 		System.out.println("division = " + division);
-		System.out.println("involution = " + involution
-		);
+		System.out.println("involution = " + (int)involution);
 	}
 }
