@@ -16,6 +16,7 @@ public class Calculate {
 		System.out.println("subtraction = " + subtraction);
 		System.out.println("multiplicaation = " + multiplication);
 		System.out.println("division = " + division);
-		System.out.println("involution = " + involution);
+		System.out.println("involution = " + involution
+		);
 	}
 }
